@@ -5,6 +5,7 @@ html, body {
   font-family: 'Raleway', sans-serif;
   color: white;
   height: 100%;
+  width: 100%;
 }
 
 /* Header Bar */
@@ -163,11 +164,13 @@ h4 {
 }
 
 /* Google Map */
+.map {
+
+}
 iframe {
-  flex: 1;
-  margin: 0 0;
-  width: 50vw;
-  padding: 30px;
+  margin: 0;
+  height: 280px;
+  width: 100%;
 }
 
 /* Footer */
@@ -235,6 +238,7 @@ input[type=submit]:hover {
 .about {
   margin: 0;
   width: 100%;
+  color: black;
 }
 
 .about h4 {
@@ -263,6 +267,19 @@ input[type=submit]:hover {
   padding: 20px;
 
 }
+
+.location {
+  color: black;
+  text-align: center;
+  padding: 20px;
+
+}
+
+.location hr {
+  border: 1px solid #ff7b00;
+  margin: 20px;
+}
+
 @media (max-width: 420px)  {
   .header {
 
