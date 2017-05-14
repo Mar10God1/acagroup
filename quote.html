@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto|Sacramento" rel="stylesheet">
 </head>
@@ -12,21 +13,106 @@
     </div>
     <div class="dropdown">
       <button class="dropbtn">☰ Menu</button>
-        <div class="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="quote.html">Get Quote</a>
-          <a href="contact.html">Contact Us</a>
-          <a href="location.html">Location & Hours</a>
-        </div>
-</div>
+      <div class="dropdown-content">
+        <a href="index.html">Home</a>
+        <a href="quote.html">Get Quote</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="location.html">Location & Hours</a>
+      </div>
+    </div>
   </div>
-  <div class="container">
-
-
-  </div>
-  <div class="map">
-
-
-  </div>
+  <div class="form">
+		<div class="container">
+      <h4>Get Quote</h4><hr />
+      <p>Provide us with some basic information, and one of our agents will be in touch just as soon as they can!</p><br />
+  		<form action="mailto:martin@martin-godwin.com" method="post" enctype="text/plain">
+      	<label for="fname">First Name</label>
+    		<input type="text" id="fname" name="firstname">
+      	<label for="lname">Last Name</label>
+      	<input type="text" id="lname" name="lastname">
+     		<label for="add">Street Address</label>
+    		<input type="text" id="add" name="address">
+        <label for="city">City</label>
+    		<input type="text" id="city" name="city">
+        <label for="state">State</label>
+        <select id="state" name="state">
+          <option value="TX">Texas</option>
+        	<option value="AL">Alabama</option>
+        	<option value="AK">Alaska</option>
+        	<option value="AZ">Arizona</option>
+        	<option value="AR">Arkansas</option>
+        	<option value="CA">California</option>
+        	<option value="CO">Colorado</option>
+        	<option value="CT">Connecticut</option>
+        	<option value="DE">Delaware</option>
+        	<option value="DC">District Of Columbia</option>
+        	<option value="FL">Florida</option>
+        	<option value="GA">Georgia</option>
+        	<option value="HI">Hawaii</option>
+        	<option value="ID">Idaho</option>
+        	<option value="IL">Illinois</option>
+        	<option value="IN">Indiana</option>
+        	<option value="IA">Iowa</option>
+        	<option value="KS">Kansas</option>
+        	<option value="KY">Kentucky</option>
+        	<option value="LA">Louisiana</option>
+        	<option value="ME">Maine</option>
+        	<option value="MD">Maryland</option>
+        	<option value="MA">Massachusetts</option>
+        	<option value="MI">Michigan</option>
+        	<option value="MN">Minnesota</option>
+        	<option value="MS">Mississippi</option>
+        	<option value="MO">Missouri</option>
+        	<option value="MT">Montana</option>
+        	<option value="NE">Nebraska</option>
+        	<option value="NV">Nevada</option>
+        	<option value="NH">New Hampshire</option>
+        	<option value="NJ">New Jersey</option>
+        	<option value="NM">New Mexico</option>
+        	<option value="NY">New York</option>
+        	<option value="NC">North Carolina</option>
+        	<option value="ND">North Dakota</option>
+        	<option value="OH">Ohio</option>
+        	<option value="OK">Oklahoma</option>
+        	<option value="OR">Oregon</option>
+        	<option value="PA">Pennsylvania</option>
+        	<option value="RI">Rhode Island</option>
+        	<option value="SC">South Carolina</option>
+        	<option value="SD">South Dakota</option>
+        	<option value="TN">Tennessee</option>
+        	<option value="TX">Texas</option>
+        	<option value="UT">Utah</option>
+        	<option value="VT">Vermont</option>
+        	<option value="VA">Virginia</option>
+        	<option value="WA">Washington</option>
+        	<option value="WV">West Virginia</option>
+        	<option value="WI">Wisconsin</option>
+        	<option value="WY">Wyoming</option>
+        </select>
+        <label for="zip">Zip</label>
+    		<input type="text" id="zip" name="zip">
+        <label for="phone">Phone</label>
+    		<input type="text" id="phone" name="phone">
+        <label for="email">Email</label>
+    		<input type="text" id="email" name="email"><hr />
+    		<label for="checkbox">Coverage (select all that apply)</label><br />
+        <input type="checkbox" id="auto" name="Automobile" value="Automobile">
+        <label for="auto">Automobile</label><br />
+        <input type="checkbox" id="home" name="Homeowners" value="Homeowners">
+        <label for="home">Homeowners</label><br />      
+        <input type="checkbox" id="condo" name="Condo" value="Condo">
+        <label for="condo">Condo</label><br />
+        <input type="checkbox" id="rent" name="Renters" value="Renters">
+        <label for="rent">Renters</label><br />
+        <input type="checkbox" id="life" name="Life/Health" value="Life/Health">
+        <label for="life">Life/Health</label><br />
+        <input type="checkbox" id="biz" name="Business" value="Business">
+        <label for="biz">Business</label><hr />
+        <label for="message">Message</label>
+    		<textarea id="message" name="message" placeholder="Send us a message..." style="height:200px"></textarea>
+    		<input type="submit" value="Submit">
+  		</form>
+		</div>
+	</div>
 </body>
 </html>
