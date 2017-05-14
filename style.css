@@ -15,7 +15,7 @@ html, body {
   justify-content: space-between;
   align-items: baseline;
   color: white;
-  height: 13%;
+  height: 90px;
 }
 
 /* Logo */
@@ -39,6 +39,7 @@ html, body {
 .dropbtn {
     background-color: inherit;
     color: white;
+    height: 90px;
     padding: 36px 75px;
     font-size: 20px;
     border: none;
@@ -181,13 +182,14 @@ footer {
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    height: 37px;
 }
 
 input[type=checkbox] {
@@ -222,6 +224,45 @@ input[type=submit]:hover {
   color: #ff7b00;
 
 }
+* {
+
+}
+.form {
+  width: 70%;
+  margin: 20px auto;
+}
+
+.about {
+  margin: 0;
+  width: 100%;
+}
+
+.about h4 {
+  color: black;
+}
+.about hr {
+  border: 1px solid #ff7b00;
+  margin: 20px;
+}
+.bio {
+  float: left;
+
+
+  color: black;
+}
+
+.bio img {
+  float: left;
+  padding: 20px 20px;
+  height: 150px;
+
+}
+
+.bio p {
+
+  padding: 20px;
+
+}
 @media (max-width: 420px)  {
   .header {
 
@@ -249,7 +290,11 @@ input[type=submit]:hover {
 
 }
 .btn button {
+  font-size: 20px;
+}
 
-  font-size: 22px;
+.form {
+  width: 100%;
+  margin: 0;
 }
 }
